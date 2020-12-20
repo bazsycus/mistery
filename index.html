@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">   
+   <title>Riddle Poem</title> 
+   <meta name="viewport" content="width=device-width, intial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<selection> 
+    <header class="loader">
+     <span style="--i:0;"></span>
+     <span style="--i:1;"></span>
+     <span style="--i:2;"></span>
+     <span style="--i:3;"></span>
+     <span style="--i:4;"></span>
+     <span style="--i:5;"></span>
+     <span style="--i:6;"></span>
+     <span style="--i:7;"></span>
+     <span style="--i:8;"></span>
+     <span style="--i:9;"></span>
+    </header>
+<div class="content">
+    <div class="textbox">
+       <h2>When you find yourself in Budapest;<br>
+           Your stomach craves a big breakfast.<br>
+           Then you walk up to the fridge;<br>
+           Only to find nothing; but poridge.<br>
+                                             
+      </h2>
+        <p>As you look more closely,<br>
+           You realise it slowly,<br>
+           That what you need mostly,<br>
+           It's right here; obviously!<br>
+                                       
+       </p> 
+        <a>It's made of milk and its color is white;<br>
+           It is a thing, that brings Megumi delight.<br>
+           We always eat it, with oats and yogurt;<br>
+           I'm sure, this word; you've discovered.<br>
+            <br>
+       </a> 
+        <c> To continue,<br>
+            write the word in the box :))<br>
+            
+       </c>
+     </div>
+</div>
+     <form>
+    <label for="pswd"></label>
+    <input type="password" id="pswd">
+    <input type="button" value="CLICK" onclick="checkPswd();" />
+    </form>
+<!--Function to check password the already set password is admin-->
+    <script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "turo";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="page1.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+        }
+     </script>
+</selection> 
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body
+{
+  display: flex;   
+  justify-content: center;
+  align-items: top;
+  min-height: 100vh;
+  background: #000;
+}
+.imgBox
+{
+  position: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 200%;
+  overflow: hidden;
+  transform: rotate(0deg);
+}
+.content .textbox
+{
+ position: center;
+ max-width: 500px;
+}
+.content .textbox h2
+{
+ color:darkred  ;
+ font-size: 1.2em;
+ line-height: 1.2em;
+ font-weight: 200;
+}
+.content .textbox c
+{
+ color: darkred;
+ font-size: 1.5em;
+ line-height: 3.5em;
+ font-weight: 100;
+}

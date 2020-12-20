@@ -40,3 +40,8 @@ body
  line-height: 3.5em;
  font-weight: 100;
 }
+.zene
+{
+ position: center;
+ height: 30px;
+}

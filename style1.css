@@ -51,7 +51,7 @@ body
 }
 .content
 {
- position: relative;
+ position: center;
  width: 100%;
  display: flex;
  justify-content: space-between;
@@ -59,7 +59,7 @@ body
 }
 .content .textbox
 {
- position: relative;
+ position: center;
  max-width: 500px;
 }
 .content .textbox h2

@@ -15,8 +15,8 @@ body
 .loader
 {
   position: center;
-  width: 380px;
-  height: 380px;
+  width: 420px;
+  height: 420px;
   border-radius: 200%;
   overflow: hidden;
   transform: rotate(90deg);
@@ -73,7 +73,7 @@ body
 .content .textbox p
 {
  color: #6960EC;
- font-size: 1em;
+ font-size: 1.2em;
  line-height: 1.3em;
  font-weight: 100;
 }
@@ -81,7 +81,7 @@ body
 .content .textbox m
 {
  color: #4CC417 ;
- font-size: 1em;
+ font-size: 1.2em;
  line-height: 1.3em;
  font-weight: 100;
 }

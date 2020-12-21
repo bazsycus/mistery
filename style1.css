@@ -19,33 +19,33 @@ body
   height: 420px;
   border-radius: 200%;
   overflow: hidden;
-  transform: rotate(90deg);
+  transform: rotate(360deg);
 }
 .loader span
 {
   position: absolute;  
-  top: calc(14px * var(--i));
-  left: calc(12px * var(--i));
-  right: calc(12px * var(--i));
-  bottom: calc(13px * var(--i));
-  border: 15px solid #9F000F;
+  top: calc(22px * var(--i));
+  left: calc(17px * var(--i));
+  right: calc(17px * var(--i));
+  bottom: calc(22px * var(--i));
+  border: 10px solid #9F000F;
   border-top: 11px solid #347C2C;
-  border-left: 13px solid #00FFFF;
+  border-left: 11px solid #00FFFF;
   border-right: 11px solid #C85A17;
-  border-bottom: 12px solid #4CC417;
+  border-bottom: 11px solid #4CC417;
   animation: animate 1s alternate ease-in-out infinite;
-  filter: hue-rotate(calc(19deg * var(--i)));
+  filter: hue-rotate(calc(10deg * var(--i)));
   animation-delay: calc(-0.03s * var(--i));
 }
 @keyframes animate
 {
   100%  
   {
-    transform: rotate(355deg);
+    transform: rotate(109deg);
   }
-  50%
+  90%
   {
-    transform: rotate(360deg);
+    transform: rotate(160deg);
         
   }
 }

@@ -15,8 +15,8 @@ body
 .loader
 {
   position: center;
-  width: 420px;
-  height: 420px;
+  width: 375px;
+  height: 375px;
   border-radius: 10%;
   overflow: hidden;
   transform: rotate(100deg);
@@ -24,15 +24,15 @@ body
 .loader span
 {
   position: absolute;  
-  top: calc(21px * var(--i));
-  left: calc(21px * var(--i));
-  right: calc(21px * var(--i));
-  bottom: calc(21px * var(--i));
-  border: 21px solid #0b0b0b;
-  border-top: 21px solid #8fb9;
-  border-left: 21px solid #37f9;
-  border-right: 21px solid #5b3b9b;
-  border-bottom: 21px solid #8fb9;
+  top: calc(18.75px * var(--i));
+  left: calc(18.75px * var(--i));
+  right: calc(18.75px * var(--i));
+  bottom: calc(18.75px * var(--i));
+  border: 18.75px solid #0b0b0b;
+  border-top: 18.75px solid #8fb9;
+  border-left: 18.75px solid #37f9;
+  border-right: 18.75px solid #5b3b9b;
+  border-bottom: 18.75px solid #8fb9;
   border-radius: 50%;
   animation: animate 1s alternate ease-in-out infinite;
   filter: hue-rotate(calc(17deg * var(--i)));

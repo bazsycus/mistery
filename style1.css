@@ -15,8 +15,8 @@ body
 .loader
 {
   position: center;
-  width: 420px;
-  height: 420px;
+  width: 375px;
+  height: 375px;
   border-radius: 200%;
   overflow: hidden;
   transform: rotate(350deg);
@@ -24,15 +24,15 @@ body
 .loader span
 {
   position: absolute;  
-  top: calc(21px * var(--i));
-  left: calc(17px * var(--i));
-  right: calc(17px * var(--i));
-  bottom: calc(21px * var(--i));
-  border: 17px solid #9F000F;
-  border-top: 21px solid #347C2C;
-  border-left: 17px solid #00FFFF;
-  border-right: 17px solid #C85A17;
-  border-bottom: 21px solid #4CC417;
+  top: calc(18.75px * var(--i));
+  left: calc(18.75px * var(--i));
+  right: calc(18.75px * var(--i));
+  bottom: calc(18.75px * var(--i));
+  border: 18.75px solid #9F000F;
+  border-top: 18.75px solid #347C2C;
+  border-left: 18.75px solid #00FFFF;
+  border-right: 18.75px solid #C85A17;
+  border-bottom: 18.75px solid #4CC417;
   animation: animate 1s alternate ease-in-out infinite;
   filter: hue-rotate(calc(10deg * var(--i)));
   animation-delay: calc(-0.03s * var(--i));
@@ -73,7 +73,7 @@ body
 .content .textbox p
 {
  color: #6960EC;
- font-size: 1.2em;
+ font-size: 1em;
  line-height: 1.3em;
  font-weight: 100;
 }
@@ -81,14 +81,14 @@ body
 .content .textbox m
 {
  color: #4CC417 ;
- font-size: 1.2em;
+ font-size: 1em;
  line-height: 1.3em;
  font-weight: 100;
 }
 .content .textbox c
 {
  color: #BCC6CC;
- font-size: 1.5em;
+ font-size: 1.2em;
  line-height: 3.5em;
  font-weight: 100;
 }

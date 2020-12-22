@@ -19,7 +19,7 @@ body
   height: 420px;
   border-radius: 200%;
   overflow: hidden;
-  transform: rotate(360deg);
+  transform: rotate(350deg);
 }
 .loader span
 {
@@ -41,11 +41,11 @@ body
 {
   100%  
   {
-    transform: rotate(109deg);
+    transform: rotate(-57deg);
   }
   90%
   {
-    transform: rotate(160deg);
+    transform: rotate(-60deg);
         
   }
 }

@@ -29,7 +29,7 @@ body
 .content .textbox h2
 {
  color:#E90C0C  ;
- font-size: 1.2em;
+ font-size: 1em;
  line-height: 1.2em;
  font-weight: 200;
 }
@@ -48,14 +48,14 @@ body
 .content .textbox p
 {
  color: #6960EC;
- font-size: 1.2em;
+ font-size: 1em;
  line-height: 1.3em;
  font-weight: 100;
 }
 .content .textbox m
 {
  color: #4CC417 ;
- font-size: 1.2em;
+ font-size: 1em;
  line-height: 1.3em;
  font-weight: 100;
 }

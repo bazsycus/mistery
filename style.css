@@ -35,7 +35,7 @@ body
   border-bottom: 18px solid #8fb9;
   border-radius: 50%;
   animation: animate 1s alternate ease-in-out infinite;
-  filter: hue-rotate(calc(17deg * var(--i)));
+  filter: hue-rotate(calc(16deg * var(--i)));
   animation-delay: calc(-0.08s * var(--i));
 }
 @keyframes animate

@@ -15,8 +15,8 @@ body
 .loader
 {
   position: center;
-  width: 375px;
-  height: 375px;
+  width: 360px;
+  height: 360px;
   border-radius: 200%;
   overflow: hidden;
   transform: rotate(350deg);

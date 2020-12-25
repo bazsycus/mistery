@@ -24,15 +24,15 @@ body
 .loader span
 {
   position: absolute;  
-  top: calc(18.75px * var(--i));
-  left: calc(18.75px * var(--i));
-  right: calc(18.75px * var(--i));
-  bottom: calc(18.75px * var(--i));
+  top: calc(18px * var(--i));
+  left: calc(18px * var(--i));
+  right: calc(18px * var(--i));
+  bottom: calc(18px * var(--i));
   border: 18.75px solid #9F000F;
-  border-top: 18.75px solid #347C2C;
-  border-left: 18.75px solid #00FFFF;
-  border-right: 18.75px solid #C85A17;
-  border-bottom: 18.75px solid #4CC417;
+  border-top: 18px solid #347C2C;
+  border-left: 18px solid #00FFFF;
+  border-right: 18px solid #C85A17;
+  border-bottom: 18px solid #4CC417;
   animation: animate 1s alternate ease-in-out infinite;
   filter: hue-rotate(calc(10deg * var(--i)));
   animation-delay: calc(-0.03s * var(--i));
